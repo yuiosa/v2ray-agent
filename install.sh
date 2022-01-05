@@ -1666,7 +1666,7 @@ handleXray() {
 		fi
 	fi
 
-	sleep 0.8
+	sleep 1.8
 
 	if [[ "$1" == "start" ]]; then
 		if [[ -n $(pgrep -f "xray/xray") ]]; then
